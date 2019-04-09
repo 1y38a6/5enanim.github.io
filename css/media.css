@@ -53,7 +53,238 @@
     .pc{
         display: none;
     }
-}
+
+
+    .container-p120{
+        padding: 0 5vw;
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+
+    .achivments-list{
+        padding: 0;
+    }
+
+    .history-image{
+        width: 100%;
+    }
+
+    .history-image>img{
+        width: 80vw;
+    }
+
+    .history-text{
+        padding: 0;
+    }
+
+    .blog-list{
+        padding: 0;
+    }
+
+    .project-mask{
+        margin-left: 0;
+        width: auto;
+        left: 0;
+        right: 0;
+        background: transparent;
+    }
+
+    .mask{
+        width: 317px;
+        height: 100%;
+        margin: 0 auto;
+        background: #4747478a;
+    }
+
+    .map-map{
+        width: 100%;
+    }
+
+    .review-image{
+        width: 74px;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+
+        transition: 500ms ease-in-out;
+    }
+
+    .review-image-left{
+        transform: translateX(-30vw);
+    }
+
+    .blog-block{
+        height: auto;
+        overflow-y: hidden;
+
+        transition: 200ms ease-in-out;
+    }
+
+    .blog-block:hover{
+        height: auto;
+    }
+
+    .review-text{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 100%;
+    }
+
+    .review-age{
+        position: absolute;
+
+        text-align: center;
+        font-family: "Montserrat Medium", sans-serif;
+        font-size: 16px;
+        color: white;
+        margin-top: -110px;
+        line-height: 3em;
+        right: 10vw;
+
+        transition: 500ms ease-in-out;
+    }
+
+    .invisible{
+        opacity: 0;
+    }
+
+    .reviews{
+        padding-bottom: 0;
+    }
+
+    .map{
+        padding-top: 0;
+    }
+
+    .fly-text{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: -15px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-advantages{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 40px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-blog{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: -50px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-projects{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: -50px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-engeneers{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: -15px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-form{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .fly-text-reviews{
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: -75px;
+        width: auto;
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .logo-header{
+        margin: 0;
+    }
+
+    .menu-toggle{
+        position: relative;
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        z-index: 999;
+        padding: 10px 0;
+    }
+
+    .fixed{
+        position: fixed;
+        right: 5vw;
+        top: 3vh;
+        padding: 0 0;
+        margin-top: 0;
+    }
+
+    .line{
+        position: absolute;
+        background: white;
+        width: 40px;
+        height: 5px;
+        margin: 5px 0;
+
+        transition: 500ms ease-in-out;
+    }
+
+    .line1{
+        transform: translateY(-10px);
+    }
+    
+    .line2{
+        transform: translateY(0px);
+    }
+
+    .line3{
+        transform: translateY(10px);
+    }
+
+    .line1-active{
+        transform: rotate(45deg);
+    }
+
+    .line2-active{
+        transform: rotate(-45deg);
+    }
+
+    .mb-menu{
+        background: black;
+        height: 213px;
+        width: 182px;
+        margin-top: -20px;
+        margin-left: -123px;
+    }
+
+    .menu-item{
+        font-size: 18px;
+        text-align: right;
+    }
      
 @media screen and (min-width: 768px) {
     .c12{

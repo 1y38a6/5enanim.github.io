@@ -172,7 +172,7 @@ header{
 
     transform: translateX(-2px) translateY(-108px);
 
-    animation: slider-sliding 5s linear 1s infinite alternate;
+    animation: slider-sliding 2s linear 1s infinite alternate;
 }
 
 @keyframes slider-sliding{
@@ -328,7 +328,7 @@ header{
 }
 
 .mask-pointer{
-    margin-top: 110px;
+    padding-top: 110px;
 }
 
 .partners{
@@ -417,7 +417,8 @@ header{
 }
 
 .form-block{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding-top: 50px;
 
     margin: 0 auto;
