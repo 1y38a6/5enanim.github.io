@@ -1,5 +1,6 @@
 $(".menu-toggle").click(menuToggle);
 $(function(){
+    $(".mb-menu").slideToggle();
     var reviews = $(".review-image");
 
     for(var a = 0; a<reviews.length; a++){
