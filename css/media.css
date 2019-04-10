@@ -114,6 +114,16 @@
         transform: translateX(-30vw);
     }
 
+    .blog-image{
+        width: 74px;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+
+        transition: 500ms ease-in-out;
+    }
+
     .blog-block{
         height: auto;
         overflow-y: hidden;
@@ -121,11 +131,40 @@
         transition: 200ms ease-in-out;
     }
 
+    .blog-title{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blog-title-deactive{
+        font-size: 14px;
+
+        margin-top: -80px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+    }
+
+    .blog-image-deactive{
+        transform: translateX(-30vw);
+    }
+
+    .blog-text{
+        font-size: 14px;
+    }
+
     .blog-block:hover{
         height: auto;
     }
 
     .review-text{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 100%;
+    }
+
+    .blog-text{
         padding-top: 0px;
         padding-bottom: 20px;
         padding-left: 5vw;

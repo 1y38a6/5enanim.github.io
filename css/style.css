@@ -162,11 +162,13 @@ header{
 }
 
 .slider-line{
+    cursor: pointer;
     width: 10px;
     margin: 0 auto;
 }
 
 .slider-pointer{
+    cursor: pointer;
     width: 26px;
     margin: 0 auto;
 
@@ -275,7 +277,7 @@ header{
     font-family: "Montserrat Medium", sans-serif;
     font-size: 18px;
 
-    transform: rotate(-90deg) translateX(-360px) translateY(-550px);
+    transform: rotate(-90deg) translateX(-267px) translateY(-550px);
 
     color: #ffffff;
 }
@@ -286,13 +288,17 @@ header{
 
 .blog-block{
     background: #464544;
-    min-height: 100px;
+    min-height: 115px;
     margin: 30px 0;
 }
 
 .projects{
     min-height: 600px;
     padding: 60px 0;
+}
+
+.b{
+    font-family: "Montserrat Bold", sans-serif;
 }
 
 .fly-text-projects{
@@ -566,6 +572,48 @@ input[type="file"] {
 
 .review-text{
     padding: 36px 80px 36px 30px;
+
+    text-align: justify;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 16px;
+
+    color: white;
+}
+
+.blog-image{
+    margin: 0 auto;
+    width: 74px;
+    padding: 20px 0;
+
+    transition: 500ms ease-in-out;
+}
+
+.blog-image-deactive{
+    transform: translateX(-400px);
+}
+
+.blog-listener{
+    cursor: pointer;
+    min-height: 115px;
+}
+
+.blog-title{
+    text-align: center;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 18px;
+
+    color: white;
+
+    transition: 500ms ease-in-out;
+}
+
+.blog-title-deactive{
+    margin-top: -72px;
+    margin-left: 100px;
+}
+
+.blog-text{
+    padding: 36px 30px 36px 30px;
 
     text-align: justify;
     font-family: "Montserrat Medium", sans-serif;
